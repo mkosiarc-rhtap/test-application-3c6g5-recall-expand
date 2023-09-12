@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/mkosiarc_rhtap/test-pvc/test-application/devfile-sample-python-basic@sha256:18b694474c14ce31b1de4b223f691b13d0acefe2a32f40372f67895d679852fc
         name: my-python
         ports:
         - containerPort: 8081
